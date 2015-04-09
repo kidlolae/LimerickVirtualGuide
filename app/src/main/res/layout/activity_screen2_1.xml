@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.limerickvirtualguide.screen2_1">
+
+    <include
+        android:id="@+id/app_toolbar"
+        layout="@layout/app_toolbar" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/medievalRoute"
+        android:id="@+id/medieval_button"
+        android:layout_below="@+id/app_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentStart="false"
+        android:textColor="@color/primaryColor"
+        android:clickable="true"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/georgianRoute"
+        android:id="@+id/georgian_button"
+        android:layout_below="@+id/medieval_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:textColor="@color/primaryColor" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/riverShannon"
+        android:id="@+id/river_button"
+        android:layout_below="@+id/georgian_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:textColor="@color/primaryColor"
+        android:textStyle="bold" />
+
+</RelativeLayout>
